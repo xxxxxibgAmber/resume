@@ -1,0 +1,142 @@
+@charset="utf-8" /* CSS Document */
+*{
+ margin:0;
+ padding:0;
+}
+.slogan{
+	list-style-type:none;
+	font-size: 50px;
+  color: pink;
+  text-align: center;
+  height: 200px;
+}
+.welcome{
+	 background: rgba(0,0,0,0.03);
+	 height:500px;
+}
+.maincontent {
+	 font-family:"黑体";
+	background-color: black;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.maincontent .welcome #text1{
+    max-width: 290px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+.maincontent .welcome #me img
+{
+	display:inherit;
+	position:absolute;
+	top:70px;
+	right:33px;
+	float:right;
+	width:226px;
+	height:226px;
+	}
+.maincontent .welcome .sidebar{
+	width:230px;
+	height:380px;
+	background:rgba(5,5,5,0.05);
+	position:absolute;
+	right:30px;
+	top:300px;
+	color:#cc9999;}
+.parent{
+	position:relative;
+	float:left;
+}
+.parent a{
+	color:#000;
+	font-size: 14px;
+	text-align:center;
+	text-decoration: none;
+	display: block;
+    width:200px;
+	padding: 10px 14px 8px;
+	border: 0.5px solid #cc9999;
+    margin: 1px;
+	float:right;
+	background:#cc9999;
+}
+.parent a:hover{
+	color:#ffffff;
+	background-color:rgba(0,0,0,0.5);
+}
+.child {
+	display:none;
+	position:relative;
+	right:230px;
+	bottom:37px;
+}
+.child a{
+	width:200px;
+}
+.parent:hover div{
+	display:block;
+}
+
+
+.main .one{
+	padding:50px 0px;
+	height:500px;
+	background:#ccccff;
+  text-align: center;
+}
+.one .fourpart{
+	height:200px;
+	text-align:center;}
+
+.line{
+	height:3px;
+	width:50%;
+	margin:0 auto;
+	text-align:center;
+	margin-bottom:22px;
+	margin-top:22px;
+	background: #333366;}
+.one .fourpart .item{
+	display:inline-block;
+	color:black;
+    text-align: center;
+    height:100px;
+    width:150px;
+    background:#C33;
+	background: rgba(0,0,0,0.3);
+    transform:rotate(30deg);
+    margin:30px;
+}
+.main #text{
+	padding:70px 0px;
+	height:200px;
+	font-size:16px;
+	}
+
+.main .two{
+	 font-family:"黑体";
+	height:300px;
+	background:#ff9999;
+	margin:0 auto;
+	text-align:center;
+}
+
+.main .three{
+	font-family:"黑体";
+	height:500px;
+	background:#ccccff;
+	margin:0 auto;
+	text-align:center;}
+
+
+
+.footer .last{
+	text-align:center;
+	height:20px;
+	width:100%;
+	background:#993333;
+	font-size:18px;}
